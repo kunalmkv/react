@@ -1,15 +1,17 @@
-import Header from './Header'
-import Footer from './Footer'
-import Food from './Food'
-
+import Card from './Card'
+import Button from './Button/Button.jsx'
+import './ButtonStyles.jsx'
+import ButtonStyles from "./ButtonStyles.jsx";
 function App() {
-      return(
-          <>
-          <Header > </Header>
-              <Food/>
-          <Footer > </Footer>
-          </>
-      )
+    return (
+        <div>
+            <Card />
+            <Card />
+            <Button />
+            <ButtonStyles />
+
+        </div>
+    )
 }
 
 export default App
