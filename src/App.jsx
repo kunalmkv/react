@@ -7,6 +7,7 @@ import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import ListProps from "./ListProps.jsx";
 import ButtonNew from "./Button.jsx";
+import ProfilePic from "./ProfilePic.jsx";
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
             {vegetablesWithCalories.length > 0 ? <ListProps items ={vegetablesWithCalories} category="Vegetables"/> : <p>No vegetables available</p>}
             {dryFruitsWithCalories.length >0 && <ListProps items ={dryFruitsWithCalories} category="Dry Fruits"/>}
             <ButtonNew />
+            <ProfilePic />
         </div>
     )
 }
