@@ -9,6 +9,7 @@ import ListProps from "./ListProps.jsx";
 import ButtonNew from "./Button.jsx";
 import ProfilePic from "./ProfilePic.jsx";
 import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
             <ButtonNew />
             <ProfilePic />
             <MyComponent />
+            <Counter />
         </div>
     )
 }
