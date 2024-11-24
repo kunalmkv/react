@@ -16,6 +16,7 @@ import UpdaterFunction from "./UpdaterFunction.jsx";
 import UpdateObject from "./UpdateObject.jsx";
 import UpdateArray from "./UpdateArray.jsx";
 import UpdateArrayOfObj from "./UpdateArrayOfObj.jsx";
+import ToDoList from "./ToDoList.jsx";
 
 function App() {
 
@@ -66,6 +67,7 @@ function App() {
             <UpdateObject />
             <UpdateArray />
             <UpdateArrayOfObj />
+            <ToDoList />
         </div>
     )
 }
