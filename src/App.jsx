@@ -11,6 +11,7 @@ import ProfilePic from "./ProfilePic.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
+import ColourPicker from "./ColourPicker.jsx";
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
             <MyComponent />
             <Counter />
             <OnChange />
+            <ColourPicker />
         </div>
     )
 }
