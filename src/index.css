@@ -28,3 +28,32 @@
     font-family: Arial, sans-serif;
     color: hsl(0,0%,40%);
 }
+
+.student {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid hsl(0,0%,80%);
+}
+
+.student p{
+    margin: 0;
+}
+
+.welcome-message{
+    font-size: 2.5em;
+    background-color: hsla(120, 100%, 42%);
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.login-prompt{
+    font-size: 2.5em;
+    background-color: hsla(120, 100%, 42%);
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}

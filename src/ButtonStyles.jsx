@@ -15,7 +15,9 @@ function ButtonStyles(){
     margin: "10px",
     cursor: "pointer"
     }
-    return <button className={styles} >Click me 2</button>
+    return <button className={
+        "button"
+    } style={styles} >Click me 1</button>
 }
 
 export default ButtonStyles;
