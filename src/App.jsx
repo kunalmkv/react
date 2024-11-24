@@ -14,6 +14,7 @@ import OnChange from "./OnChange.jsx";
 import ColourPicker from "./ColourPicker.jsx";
 import UpdaterFunction from "./UpdaterFunction.jsx";
 import UpdateObject from "./UpdateObject.jsx";
+import UpdateArray from "./UpdateArray.jsx";
 
 function App() {
 
@@ -62,6 +63,7 @@ function App() {
             <ColourPicker />
             <UpdaterFunction />
             <UpdateObject />
+            <UpdateArray />
         </div>
     )
 }
