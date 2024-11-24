@@ -12,6 +12,7 @@ import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
 import ColourPicker from "./ColourPicker.jsx";
+import UpdaterFunction from "./UpdaterFunction.jsx";
 
 function App() {
 
@@ -58,6 +59,7 @@ function App() {
             <Counter />
             <OnChange />
             <ColourPicker />
+            <UpdaterFunction />
         </div>
     )
 }
