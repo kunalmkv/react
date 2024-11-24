@@ -8,6 +8,7 @@ import List from "./List.jsx";
 import ListProps from "./ListProps.jsx";
 import ButtonNew from "./Button.jsx";
 import ProfilePic from "./ProfilePic.jsx";
+import MyComponent from "./MyComponent.jsx";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
             {dryFruitsWithCalories.length >0 && <ListProps items ={dryFruitsWithCalories} category="Dry Fruits"/>}
             <ButtonNew />
             <ProfilePic />
+            <MyComponent />
         </div>
     )
 }
