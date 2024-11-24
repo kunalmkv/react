@@ -10,6 +10,7 @@ import ButtonNew from "./Button.jsx";
 import ProfilePic from "./ProfilePic.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
+import OnChange from "./OnChange.jsx";
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
             <ProfilePic />
             <MyComponent />
             <Counter />
+            <OnChange />
         </div>
     )
 }
