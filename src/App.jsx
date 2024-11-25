@@ -17,6 +17,7 @@ import UpdateObject from "./UpdateObject.jsx";
 import UpdateArray from "./UpdateArray.jsx";
 import UpdateArrayOfObj from "./UpdateArrayOfObj.jsx";
 import ToDoList from "./ToDoList.jsx";
+import UseEffect from "./UseEffect.jsx";
 
 function App() {
 
@@ -68,6 +69,7 @@ function App() {
             <UpdateArray />
             <UpdateArrayOfObj />
             <ToDoList />
+            <UseEffect />
         </div>
     )
 }
