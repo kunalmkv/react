@@ -18,6 +18,7 @@ import UpdateArray from "./UpdateArray.jsx";
 import UpdateArrayOfObj from "./UpdateArrayOfObj.jsx";
 import ToDoList from "./ToDoList.jsx";
 import UseEffect from "./UseEffect.jsx";
+import Dimensions from "./Dimensions.jsx";
 
 function App() {
 
@@ -70,6 +71,7 @@ function App() {
             <UpdateArrayOfObj />
             <ToDoList />
             <UseEffect />
+            <Dimensions />
         </div>
     )
 }
