@@ -1,3 +1,4 @@
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Card from './Card'
 import Button from './Button/Button.jsx'
 import './ButtonStyles.jsx'
@@ -21,6 +22,9 @@ import UseEffect from "./UseEffect.jsx";
 import Dimensions from "./Dimensions.jsx";
 
 function App() {
+    const router = createBrowserRouter([
+        {path: "/", element: <ProfilePic />}
+        ])
 
     const fruitsWithCalories = [
         {id:1, name: "apple", calories: 95},
@@ -72,6 +76,7 @@ function App() {
             <ToDoList />
             <UseEffect />
             <Dimensions />
+            <RouterProvider router={router}></RouterProvider>
         </div>
     )
 }
